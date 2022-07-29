@@ -1,0 +1,74 @@
+.card_group{
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    padding: 30px;
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 15px;
+    justify-content: center;
+    
+}
+.card_group .cardSedans{
+    background-color: hsl(31, 77%, 52%);
+    padding: 30px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+.card_group .cardSuvs{
+    background-color: hsl(184, 100%, 22%);
+    padding: 30px;
+}
+.card_group .cardLuxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 30px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+h1{
+    color: hsl(0, 0%, 95%);
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 80px;
+}
+.btn1{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+}
+.btn1:hover {
+    background-color:hsl(31, 77%, 52%);
+    outline-style: solid;
+    border: hsla(0, 0%, 100%, 0.75);
+    color: hsla(0, 0%, 100%, 0.75);
+    
+}
+.btn2{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+}
+.btn2:hover {
+    background-color:hsl(184, 100%, 22%);
+    outline-style: solid;
+    border: hsla(0, 0%, 100%, 0.75);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.btn3{
+    color: hsl(179, 100%, 13%);
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+}
+.btn3:hover {
+    background-color:hsl(179, 100%, 13%);
+    outline-style: solid;
+    border: hsla(0, 0%, 100%, 0.75);
+    color: hsla(0, 0%, 100%, 0.75);
+}
